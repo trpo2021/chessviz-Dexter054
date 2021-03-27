@@ -1,0 +1,4 @@
+all:
+	gcc -Wall -Werror -o main main.cpp
+clean:
+	$(RM) main
